@@ -1,0 +1,12 @@
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+
+# Coverage
+coverage/
+coverage.json
+
+# Deployment outputs
+deployments/
+*.deploy.js

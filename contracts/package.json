@@ -1,0 +1,29 @@
+{
+  "name": "@swiftremit/contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for SwiftRemit - Peer-to-peer remittance dApp on Celo",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network celoAlfajores"
+  },
+  "keywords": [
+    "blockchain",
+    "celo",
+    "remittance",
+    "smart-contracts",
+    "hardhat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.2.0",
+    "@openzeppelin/contracts": "^5.1.0"
+  }
+}

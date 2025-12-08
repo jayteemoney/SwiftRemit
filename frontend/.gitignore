@@ -1,0 +1,11 @@
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Test coverage
+coverage/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
