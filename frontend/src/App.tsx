@@ -1,7 +1,12 @@
+import { WalletConnect } from './components/WalletConnect'
+
 function App() {
   return (
     <div className="min-h-screen bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
       <div className="container mx-auto px-4 py-8">
+        <div className="flex justify-end mb-8">
+          <WalletConnect />
+        </div>
         <h1 className="text-4xl font-bold text-center">
           Welcome to SwiftRemit
         </h1>
